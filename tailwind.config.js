@@ -12,7 +12,9 @@ export default {
         robotoMono : "'Roboto Mono', monospace"
       },
        colors: {
-       "ghost-white": "#F9F9F9"
+       "ghost-white": "#F9F9F9",
+       "green-sheen": "#71A894",
+       "dark-charcoal": "#303031"
     }
   },
   },

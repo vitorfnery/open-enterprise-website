@@ -8,7 +8,7 @@ import NoPage from "@pages/NoPage";
 
 const App = () => {
   return (
-    <div className="px-14 py-10 bg-ghost-white">
+    <div className="px-4 md:px-14 py-3 md:py-10 bg-ghost-white">
       <Navbar />
       <Routes>
         <Route index path="/" element={<Home />} />

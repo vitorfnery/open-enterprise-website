@@ -1,0 +1,21 @@
+.hero__btn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px 24px;
+    width: 219px;
+    height: 64px;
+    background: #71A894;
+    border-radius: 8px;
+}
+
+.hero__btn  span {
+    width: 171px;
+    height: 24px;
+    font-family: 'Figtree';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}

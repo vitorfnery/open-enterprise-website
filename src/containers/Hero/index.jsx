@@ -1,7 +1,12 @@
+import CustomTextImg from "@/components/CustomTextImg";
+import { HERO_INFO } from "@/constants";
+import HeroImg from "@assets/hero.svg";
+
 const Hero = () => {
+  const { title, content, btn } = HERO_INFO;
   return (
-    <div className="w-full h-screen flex justify-center items-center">
-      <h1 className="text-4xl md:text-5xl xl:text-9xl">Hero</h1>
+    <div className="">
+      <CustomTextImg title={title} content={content} btn={btn} src={HeroImg} />
     </div>
   );
 };

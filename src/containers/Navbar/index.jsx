@@ -1,17 +1,18 @@
 import LogoNav from "@assets/logo-navbar.svg";
-import { NAVBAR_TITLES } from "@/constants";
+import { NAVBAR_TITLES, NAV_REQUEST_BTN } from "@/constants";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const items = NAVBAR_TITLES;
+  const requestText = NAV_REQUEST_BTN.text;
   const [open, setOpen] = useState(false);
   return (
-    <nav className="flex items center justify-between">
-      <Link className="w-2/3 md:w-full" to="/">
-        <img src={LogoNav} alt="logo" />
+    <nav className="flex items-center justify-between">
+      <Link className="" to="/">
+        <img className="w-[189px] md:w-[281px]" src={LogoNav} alt="logo" />
       </Link>
-      <ul className="mt-[10px] mb-[9px] font-medium font-figtree hidden md:flex gap-10">
+      <ul className="mt-[10px] mb-[9px] text-xl font-medium font-figtree hidden md:flex gap-10">
         {items.map(({ text, to, id }) => (
           <li className="" key={id}>
             <Link className="" to={to}>
@@ -19,6 +20,9 @@ const Navbar = () => {
             </Link>
           </li>
         ))}
+        <li className="text-green-sheen">
+          <Link>{requestText}</Link>
+        </li>
       </ul>
       <div
         className="cursor-pointer block md:hidden"
@@ -75,41 +79,6 @@ const Navbar = () => {
           </li>
         ))}
       </ul>
-      {/* <ul
-          className={`
-                    mt-10
-                    md:mt-[10px] 
-                    mb-[9px] 
-                    font-medium font-figtree 
-                    md:flex md:flex-row 
-                    md:gap-10
-                    z-[20] 
-                    md:z-auto 
-                    w-[50%]
-                    md:w-auto
-                    absolute
-                    md:static
-                    left-16
-                    bg-gray-400
-                    md:bg-inherit
-                    transition-all 
-                    duration-300 
-                    ease-in
-                    ${
-                      open
-                        ? "top-19 opacity-100"
-                        : "top-[-490px] md:opacity-100 opacity-0"
-                    }
-                     `}
-        >
-          {items.map(({ text, to, id }) => (
-            <li className="pt-2 pt-0" key={id}>
-              <Link className="" to={to}>
-                {text}
-              </Link>
-            </li>
-          ))}
-        </ul> */}
     </nav>
   );
 };
