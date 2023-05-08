@@ -1,7 +1,17 @@
+import ContentHeader from "@containers/Content/ContentHeader";
+import ContentCards from "@containers/Content/ContentCards";
+import ContentInfo from "@containers/Content/ContentInfo";
+import ContentTasks from "@containers/Content/ContentTasks";
+import ContentBottom from "@containers/Content/ContentBottom";
+
 const Content = () => {
   return (
-    <div className="w-full h-screen flex justify-center items-center">
-      <h1 className="text-4xl md:text-5xl xl:text-9xl">Content</h1>
+    <div className="w-full">
+      <ContentHeader />
+      <ContentCards />
+      <ContentInfo />
+      <ContentTasks />
+      <ContentBottom />
     </div>
   );
 };

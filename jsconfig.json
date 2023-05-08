@@ -19,12 +19,6 @@
             ],
             "@components/*": [
                 "src/components/*"
-            ],
-            "@CustomButton/*": [
-                "src/components/CustomButton/*"
-            ],
-            "@CustomTextImg/*": [
-                "src/components/CustomTextImg/*"
             ]
         }
     }

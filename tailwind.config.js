@@ -8,7 +8,7 @@ export default {
     extend: { 
       fontFamily: {
         figtree: "'Figtree', sans-serif",
-        cousine: " 'Cousine', monospace",
+        dmSerif: "'DM Serif Display', serif",
         robotoMono : "'Roboto Mono', monospace"
       },
        colors: {
