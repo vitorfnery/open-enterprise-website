@@ -1,21 +1,32 @@
 import LogoNav from "@assets/logo-navbar.svg";
 import { NAVBAR_TITLES, NAV_REQUEST_BTN } from "@/constants";
 import { useState } from "react";
+import { v4 } from "uuid";
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const items = NAVBAR_TITLES;
   const requestText = NAV_REQUEST_BTN.text;
+  const idGenerator = v4;
   const [open, setOpen] = useState(false);
   return (
-    <nav className="flex items-center justify-between">
-      <Link className="" to="/">
-        <img className="w-[189px] md:w-[281px]" src={LogoNav} alt="logo" />
+    <nav className="flex items-center justify-between mr-4 md:mr-14 w-[88%] lg:w-[90%] 2xl:w-[92%] absolute z-20">
+      <Link to="/">
+        <img
+          className="w-[189px] md:w-[220px] lg:w-[281px] "
+          src={LogoNav}
+          alt="logo"
+        />
       </Link>
-      <ul className="mt-[10px] mb-[9px] text-xl font-medium font-figtree hidden md:flex gap-10">
-        {items.map(({ text, to, id }) => (
-          <li className="" key={id}>
-            <Link className="" to={to}>
+      <ul
+        className="
+                  mt-[10px] mb-[9px] text-xs lg:text-base xl:text-xl font-medium font-figtree hidden 
+                  gap-3 md:flex md:gap-10 xl:gap-16 2xl:gap-20
+                  "
+      >
+        {items.map(({ text, to }) => (
+          <li key={idGenerator()}>
+            <Link className="cursor-pointer" to={to}>
               {text}
             </Link>
           </li>
@@ -71,8 +82,8 @@ const Navbar = () => {
           <img src={LogoNav} alt="logo" />
         </Link>
 
-        {items.map(({ text, to, id }) => (
-          <li className="p-4 border-b border-gray-600" key={id}>
+        {items.map(({ text, to }) => (
+          <li className="p-4 border-b border-gray-600" key={idGenerator()}>
             <Link className="" to={to}>
               {text}
             </Link>
@@ -82,4 +93,5 @@ const Navbar = () => {
     </nav>
   );
 };
+
 export default Navbar;

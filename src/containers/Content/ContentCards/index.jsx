@@ -1,4 +1,20 @@
+import { CONTENT_CARDS } from "@/constants";
+import CustomCard from "@/components/CustomCard";
+import { v4 } from "uuid";
+
 const ContentCards = () => {
-  return <div>ContentCards</div>;
+  const items = CONTENT_CARDS;
+  const idGenerator = v4;
+  return (
+    <div className="w-full">
+      <ul className="grid grid-cols-1 gap-y-5 md:grid-cols-3 md:gap-x-[23px]">
+        {items.map(({ img, title, content }) => (
+          <li key={idGenerator()}>
+            <CustomCard img={img} title={title} content={content} />
+          </li>
+        ))}
+      </ul>
+    </div>
+  );
 };
 export default ContentCards;

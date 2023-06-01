@@ -19,6 +19,9 @@
             ],
             "@components/*": [
                 "src/components/*"
+            ],
+            "@CustomCard/*": [
+                "src/components/CustomCard/*"
             ]
         }
     }

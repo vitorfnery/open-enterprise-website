@@ -1,7 +1,7 @@
 export const NAVBAR_TITLES = [
-        {text: "Why Open Enterprise", to: "/", id: 1}, 
-        {text: "Features", to: "/features", id: 2},
-        {text: "Contribute", to: "/contribute", id: 3}
+        {text: "Why Open Enterprise", to: "/"}, 
+        {text: "Features", to: "/features"},
+        {text: "Contribute", to: "/contribute"}
 ]
 
 export const NAV_REQUEST_BTN = {text: "Request early access"}

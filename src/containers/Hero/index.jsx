@@ -5,17 +5,27 @@ import HeroImg from "@assets/hero.svg";
 const Hero = () => {
   const { title, content, btn } = HERO_INFO;
   return (
-    <div className="w-full flex justify-between mt-[191px]">
-      <div className="w-[608px]">
-        <h1 className="font-dmSerif font-normal text-[52px] text-dark-charcoal leading-[60px]">
+    <div
+      className="
+                  w-full grid grid-cols-1 lg:grid-cols-2 
+                  justify-items-center lg:justify-items-start
+                  mt-[3%] lg:mt-[5%] 2xl:mt-[8%]
+                  gap-y-20
+                  lg:gap-x-10
+                "
+    >
+      <div className="w-4/5 lg:w-full">
+        <h1 className="font-dmSerif font-normal text-3xl sm:text-5xl lg:text-[52px] text-dark-charcoal leading-[50px] lg:leading-[60px]">
           {title}
         </h1>
         <p className="pt-11 pb-10 font-figtree font-normal text-base">
           {content}
         </p>
-        <CustomButton content={btn} styleClass={"hero__btn"} />
+        <div className="flex justify-center md:block">
+          <CustomButton content={btn} styleClass={"hero__btn"} />
+        </div>
       </div>
-      <img className="-mt-[20%] -mr-[4.15%]" src={HeroImg} alt="" />
+      <img className="-mt-[20%] mx-auto z-0" src={HeroImg} alt="Hero Image" />
     </div>
   );
 };

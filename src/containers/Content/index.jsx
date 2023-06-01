@@ -6,7 +6,7 @@ import ContentBottom from "@containers/Content/ContentBottom";
 
 const Content = () => {
   return (
-    <div className="w-full">
+    <div className="w-full pr-4 md:pr-14">
       <ContentHeader />
       <ContentCards />
       <ContentInfo />
