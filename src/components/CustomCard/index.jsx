@@ -2,7 +2,7 @@ import "./styles.css";
 
 const CustomCard = ({ img, title, content }) => {
   return (
-    <div className="custom__card flex flex-col justify-center items-center py-16">
+    <div className="custom__card flex flex-col justify-center items-center py-16 h-full">
       <img className="mb-6 w-[104px] h-[88px]" src={img} />
       <h6
         className="  

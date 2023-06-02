@@ -14,7 +14,8 @@ export default {
        colors: {
        "ghost-white": "#F9F9F9",
        "green-sheen": "#71A894",
-       "dark-charcoal": "#303031"
+       "dark-charcoal": "#303031",
+       "granite-gray": "#66645E"
     }
   },
   },
