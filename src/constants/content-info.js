@@ -121,3 +121,8 @@ export const CONTENT_INFO_CARD_3_APPLICANTS = [
     applicantCommits: "2 commits"
     } 
 ]
+
+export const CONTENT_TASKS_HEADER = {
+    title: "Help us improve Open Enterprise", 
+    content: "As an Open Enterprise ourselves, we are actively looking for new talent to join our mission of improving and delivering the Open Enterprise model to the world. Apply for open tasks and earn a stake in our success.", 
+}

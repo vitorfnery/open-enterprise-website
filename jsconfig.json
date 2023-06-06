@@ -20,8 +20,14 @@
             "@components/*": [
                 "src/components/*"
             ],
-            "@CustomCard/*": [
-                "src/components/CustomCard/*"
+            "@InfoParagraph/*": [
+                "src/components/InfoParagraph/*"
+            ],
+            "@CustomInfoParagraph/*": [
+                "src/components/CustomInfoParagraph/*"
+            ],
+            "@CustomContentHeader/*": [
+                "src/components/CustomContentHeader/*"
             ]
         }
     }
