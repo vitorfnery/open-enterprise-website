@@ -81,3 +81,31 @@
     letter-spacing: -0.02em;
     color: #FFFFFF;
  }
+
+ @media(max-width: 768px) {
+    .vote__btn {
+       height: 40px; 
+    }
+
+    .vote__btn span {
+        font-size: 18px;
+        line-height: 24px;
+        letter-spacing: -0.02em;
+    }
+
+    .profile__btn {
+        padding: 8px 12px;
+    }
+
+    .profile__btn span {
+        font-size: 12px;
+        line-height: 16px;
+    }
+ }
+
+ @media(max-width: 398px) {
+    .rounded__btn span {
+        font-size: 12px;
+        line-height: 16px;
+    }  
+ }

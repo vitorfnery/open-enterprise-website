@@ -16,7 +16,10 @@ export default {
        "green-sheen": "#71A894",
        "dark-charcoal": "#303031",
        "granite-gray": "#66645E"
-    }
+      },
+       screens: {
+        'xsm': '398px'
+      }
   },
   },
   plugins: [],

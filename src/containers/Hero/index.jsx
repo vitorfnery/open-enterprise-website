@@ -9,7 +9,7 @@ const Hero = () => {
       className="
                   w-full grid grid-cols-1 lg:grid-cols-2 
                   justify-items-center lg:justify-items-start
-                  mt-[3%] lg:mt-[5%] 2xl:mt-[8%]
+                  mt-[3%] lg:mt-[8%] 
                   gap-y-20
                   lg:gap-x-10
                 "

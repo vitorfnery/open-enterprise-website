@@ -108,3 +108,63 @@
     letter-spacing: -0.02em;
     color: #303031;
 }
+
+@media (max-width: 1320px) {
+    .applicants__card {
+        padding: 20px 22px; 
+    }
+
+    .applicants__card h5 {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .applicant__item span {
+        font-size: 14px;
+        line-height: 16px;
+        padding-left: 0.25em;
+    }
+
+    .candidate__card {
+        padding: 6px; 
+    }
+
+    .candidate__card h6 {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 14px;
+    }
+
+    .candidate__commits {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .candidate__stars {
+        font-size: 14px;
+        line-height: 18px;
+    }
+}
+
+@media (max-width: 540px) {
+    .article__how__card div h6 {
+        font-size: 14px;
+        line-height: 24px;    
+    }
+    
+    .article__how__card div p {
+        font-size: 12px;
+        line-height: 24px;    
+    }
+
+    .applicant__item span {
+        font-size: 10px;
+        line-height: 8px;
+        padding-left: 0.5em;
+    }
+    
+    .applicant__stars span{
+        font-size: 13px;   
+    }
+
+}
