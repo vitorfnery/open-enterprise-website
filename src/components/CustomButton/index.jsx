@@ -1,8 +1,8 @@
 import "./styles.css";
 
-const CustomButton = ({ content, styleClass }) => {
+const CustomButton = ({ content, styleClass, onClick }) => {
   return (
-    <button className={`${styleClass}`}>
+    <button className={`${styleClass}`} onClick={onClick}>
       <span>{content}</span>
     </button>
   );

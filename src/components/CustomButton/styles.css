@@ -82,6 +82,25 @@
     color: #FFFFFF;
  }
 
+ .more__less__btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 24px;
+    background: #303031;
+    border-radius: 8px;
+ }
+
+ .more__less__btn span {
+    font-family: 'Figtree';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
  @media(max-width: 768px) {
     .vote__btn {
        height: 40px; 

@@ -20,14 +20,23 @@
             "@components/*": [
                 "src/components/*"
             ],
-            "@InfoParagraph/*": [
-                "src/components/InfoParagraph/*"
+            "@CustomInfoBox/*": [
+                "src/components/CustomInfoBox/*"
             ],
-            "@CustomInfoParagraph/*": [
-                "src/components/CustomInfoParagraph/*"
+            "@RoundedSection/*": [
+                "src/components/RoundedSection/*"
             ],
-            "@CustomContentHeader/*": [
-                "src/components/CustomContentHeader/*"
+            "@InfoBox/*": [
+                "src/components/InfoBox/*"
+            ],
+            "@ValueCard/*": [
+                "src/components/ValueCard/*"
+            ],
+            "@ValuesCard/*": [
+                "src/components/ValuesCard/*"
+            ],
+            "@TasksCard/*": [
+                "src/components/TasksCard/*"
             ]
         }
     }

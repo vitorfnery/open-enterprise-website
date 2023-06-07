@@ -1,8 +1,8 @@
 import "./styles.css";
 
-const CustomCard = ({ img, title, content }) => {
+const ValuesCard = ({ img, title, content }) => {
   return (
-    <div className="custom__card flex flex-col justify-center items-center py-16 h-full">
+    <div className="Values__card flex flex-col justify-center items-center py-16 h-full">
       <img className="mb-6 w-[104px] h-[88px]" src={img} />
       <h6
         className="  
@@ -23,4 +23,4 @@ const CustomCard = ({ img, title, content }) => {
     </div>
   );
 };
-export default CustomCard;
+export default ValuesCard;
