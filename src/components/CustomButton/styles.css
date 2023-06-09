@@ -1,4 +1,4 @@
-.hero__btn {
+.request__btn {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -9,7 +9,7 @@
     border-radius: 8px;
 }
 
-.hero__btn  span {
+.request__btn  span {
     width: 171px;
     height: 24px;
     font-family: 'Figtree';

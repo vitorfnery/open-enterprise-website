@@ -1,5 +1,4 @@
-import { CONTENT_INFO_BLOCK_1 } from "@constants/content-info";
-import { CONTENT_INFO_CARD_1 } from "@constants/content-info";
+import { CONTENT_INFO_BLOCK_1, CONTENT_INFO_CARD_1 } from "@constants";
 import { v4 } from "uuid";
 import "./styles.css";
 import CustomInfoParagraph from "@/components/CustomInfoParagraph";

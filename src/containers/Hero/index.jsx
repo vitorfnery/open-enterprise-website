@@ -3,7 +3,7 @@ import { HERO_INFO } from "@/constants";
 import HeroImg from "@assets/hero.svg";
 
 const Hero = () => {
-  const { title, content, btn } = HERO_INFO;
+  const { title, content, btn__text, btn__style } = HERO_INFO;
   return (
     <div
       className="
@@ -25,11 +25,11 @@ const Hero = () => {
         >
           {title}
         </h1>
-        <p className="pt-5 pb-6 md:pt-11 md:pb-10 font-figtree font-normal text-base">
+        <p className="pt-5 pb-6 md:pt-11 md:pb-10 font-figtree font-normal text-base md:text-2xl">
           {content}
         </p>
         <div className="flex justify-center md:block">
-          <CustomButton content={btn} styleClass={"hero__btn"} />
+          <CustomButton content={btn__text} styleClass={btn__style} />
         </div>
       </div>
       <img

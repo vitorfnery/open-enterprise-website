@@ -1,6 +1,8 @@
-import { CONTENT_INFO_CARD_3_A } from "@constants/content-info";
-import { CONTENT_INFO_CARD_3_B } from "@constants/content-info";
-import { CONTENT_INFO_CARD_3_APPLICANTS } from "@constants/content-info";
+import {
+  CONTENT_INFO_CARD_3_A,
+  CONTENT_INFO_CARD_3_B,
+  CONTENT_INFO_CARD_3_APPLICANTS,
+} from "@constants";
 import CustomButton from "@/components/CustomButton";
 import CustomInfoBox from "@/components/CustomInfoBox";
 import { v4 } from "uuid";

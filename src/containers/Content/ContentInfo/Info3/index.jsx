@@ -1,4 +1,4 @@
-import { CONTENT_INFO_BLOCK_3 } from "@constants/content-info";
+import { CONTENT_INFO_BLOCK_3 } from "@constants";
 import ApplicantsCards from "./ApplicantsCards";
 import CustomInfoParagraph from "@/components/CustomInfoParagraph";
 

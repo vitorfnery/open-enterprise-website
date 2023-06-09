@@ -1,5 +1,4 @@
-import { CONTENT_INFO_BLOCK_2 } from "@constants/content-info";
-import { CONTENT_INFO_CARD_2 } from "@constants/content-info";
+import { CONTENT_INFO_BLOCK_2, CONTENT_INFO_CARD_2 } from "@constants";
 import "./styles.css";
 import CustomButton from "@/components/CustomButton";
 import CustomInfoParagraph from "@/components/CustomInfoParagraph";

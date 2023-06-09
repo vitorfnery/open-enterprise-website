@@ -1,6 +1,6 @@
 import CustomButton from "@/components/CustomButton";
 import TasksCard from "@/components/TasksCard";
-import { TASKS, TASKS_PER_ROW, MORE_LESS_BTN } from "@constants/content-info";
+import { TASKS, TASKS_PER_ROW, MORE_LESS_BTN } from "@constants";
 import { v4 } from "uuid";
 import { useState } from "react";
 
