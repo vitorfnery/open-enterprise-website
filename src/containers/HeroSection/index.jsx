@@ -2,7 +2,7 @@ import CustomButton from "@components/CustomButton";
 import { HERO_INFO } from "@/constants";
 import HeroImg from "@assets/hero.svg";
 
-const Hero = () => {
+const HeroSection = () => {
   const { title, content, btn__text, btn__style } = HERO_INFO;
   return (
     <div
@@ -41,4 +41,4 @@ const Hero = () => {
     </div>
   );
 };
-export default Hero;
+export default HeroSection;

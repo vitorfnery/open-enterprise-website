@@ -1,10 +1,10 @@
 import Content from "@containers/Content";
-import Hero from "@containers/Hero";
+import HeroSection from "@containers/HeroSection";
 
 const Home = () => {
   return (
     <>
-      <Hero />
+      <HeroSection />
       <Content />
     </>
   );
