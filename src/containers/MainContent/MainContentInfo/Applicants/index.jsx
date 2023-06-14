@@ -1,8 +1,8 @@
 import { CONTENT_INFO_BLOCK_3 } from "@constants";
-import ApplicantsCards from "./ApplicantsCards";
+import ApplicantsCards from "@containers/MainContent/MainContentInfo/Applicants/ApplicantsCards";
 import CustomInfoParagraph from "@/components/CustomInfoParagraph";
 
-const Info3 = () => {
+const Applicants = () => {
   const { img, title, content } = CONTENT_INFO_BLOCK_3;
 
   return (
@@ -12,4 +12,4 @@ const Info3 = () => {
     </div>
   );
 };
-export default Info3;
+export default Applicants;

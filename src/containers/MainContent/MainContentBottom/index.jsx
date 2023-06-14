@@ -2,7 +2,7 @@ import CustomButton from "@/components/CustomButton";
 import { CONTENT_BOTTOM } from "@constants";
 import ContentBottomImg from "@assets/content-bottom.svg";
 
-const ContentBottom = () => {
+const MainContentBottom = () => {
   const { title, content, btn__text, btn__style } = CONTENT_BOTTOM;
   return (
     <div
@@ -41,4 +41,4 @@ const ContentBottom = () => {
     </div>
   );
 };
-export default ContentBottom;
+export default MainContentBottom;

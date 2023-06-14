@@ -3,7 +3,7 @@ import "./styles.css";
 import CustomButton from "@/components/CustomButton";
 import CustomInfoParagraph from "@/components/CustomInfoParagraph";
 
-const Info2 = () => {
+const Investor = () => {
   const { img, title, content } = CONTENT_INFO_BLOCK_2;
   const {
     investorImg,
@@ -62,4 +62,4 @@ const Info2 = () => {
     </div>
   );
 };
-export default Info2;
+export default Investor;

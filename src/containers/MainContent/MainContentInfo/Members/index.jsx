@@ -3,7 +3,7 @@ import { v4 } from "uuid";
 import "./styles.css";
 import CustomInfoParagraph from "@/components/CustomInfoParagraph";
 
-const Info1 = () => {
+const Members = () => {
   const { img, title, content } = CONTENT_INFO_BLOCK_1;
   const items = CONTENT_INFO_CARD_1;
   const team = items.members;
@@ -40,4 +40,4 @@ const Info1 = () => {
     </div>
   );
 };
-export default Info1;
+export default Members;

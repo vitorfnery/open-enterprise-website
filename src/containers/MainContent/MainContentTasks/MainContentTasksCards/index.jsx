@@ -4,7 +4,7 @@ import { TASKS, TASKS_PER_ROW, MORE_LESS_BTN } from "@constants";
 import { v4 } from "uuid";
 import { useState } from "react";
 
-const ContentTasksCards = () => {
+const MainContentTasksCards = () => {
   const cardsPerRow = TASKS_PER_ROW;
   const items = TASKS;
   const viewMoreText = MORE_LESS_BTN.more;
@@ -43,4 +43,4 @@ const ContentTasksCards = () => {
     </div>
   );
 };
-export default ContentTasksCards;
+export default MainContentTasksCards;

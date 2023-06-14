@@ -2,7 +2,7 @@ import { CONTENT_CARDS } from "@/constants";
 import ValuesCard from "@/components/ValuesCard";
 import { v4 } from "uuid";
 
-const ContentCards = () => {
+const MainContentCards = () => {
   const items = CONTENT_CARDS;
   const idGenerator = v4;
   return (
@@ -17,4 +17,4 @@ const ContentCards = () => {
     </div>
   );
 };
-export default ContentCards;
+export default MainContentCards;
