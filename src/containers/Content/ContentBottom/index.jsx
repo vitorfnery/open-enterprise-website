@@ -18,8 +18,8 @@ const ContentBottom = () => {
         <h1
           className="
                     font-dmSerif font-normal text-dark-charcoal 
-                    text-3xl sm:text-4xl lg:text-5xl
-                    leading-9 sm:leading-10 lg:leading-[64px]
+                    text-3xl sm:text-4xl xl:text-5xl
+                    leading-9 sm:leading-10 lg:leading-[50px] xl:leading-[64px]
                     "
         >
           {title}
@@ -31,12 +31,13 @@ const ContentBottom = () => {
           <CustomButton content={btn__text} styleClass={btn__style} />
         </div>
       </div>
-
-      <img
-        className="h-[361px] mx-auto lg:mx-0 order-1 lg:order-2"
-        src={ContentBottomImg}
-        alt="Bottom Image"
-      />
+      <div className="w-full order-1 lg:order-2 flex justify-center">
+        <img
+          className="h-[361px] mx-auto lg:mx-0"
+          src={ContentBottomImg}
+          alt="Bottom Image"
+        />
+      </div>
     </div>
   );
 };

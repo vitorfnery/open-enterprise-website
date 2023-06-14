@@ -9,7 +9,6 @@ const Hero = () => {
       className="
                   w-full grid grid-cols-1 lg:grid-cols-2 
                   justify-items-center lg:justify-items-start
-                  
                   mt-[15%] sm:mt-[8%] 
                   gap-y-0 lg:gap-y-20
                   lg:gap-x-10
@@ -19,7 +18,7 @@ const Hero = () => {
         <h1
           className="
                     font-dmSerif font-normal text-dark-charcoal 
-                    text-3xl sm:text-5xl lg:text-[52px]  
+                    text-3xl sm:text-5xl xl:text-[52px]  
                     leading-9 sm:leading-[50px] lg:leading-[60px]
                     "
         >
@@ -32,11 +31,13 @@ const Hero = () => {
           <CustomButton content={btn__text} styleClass={btn__style} />
         </div>
       </div>
-      <img
-        className="lg:-mt-[20%] mx-auto z-0 scale-[0.85] lg:scale-100"
-        src={HeroImg}
-        alt="Hero Image"
-      />
+      <div className="w-full justify-self-start 2xl:justify-self-center">
+        <img
+          className="lg:-mt-[20%] mx-auto z-0 scale-[0.85] lg:scale-100"
+          src={HeroImg}
+          alt="Hero Image"
+        />
+      </div>
     </div>
   );
 };

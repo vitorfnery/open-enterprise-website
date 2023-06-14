@@ -18,7 +18,7 @@ export default {
        "granite-gray": "#66645E"
       },
        screens: {
-        'xsm': '398px'
+        'xsm': '398px',
       }
   },
   },
