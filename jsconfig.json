@@ -1,0 +1,43 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "paths": {
+            "@assets/*": [
+                "src/assets/*"
+            ],
+            "@constants/*": [
+                "src/constants/*"
+            ],
+            "@containers/*": [
+                "src/containers/*"
+            ],
+            "@pages/*": [
+                "src/pages/*"
+            ],
+            "@/*": [
+                "src/*"
+            ],
+            "@components/*": [
+                "src/components/*"
+            ],
+            "@CustomInfoBox/*": [
+                "src/components/CustomInfoBox/*"
+            ],
+            "@RoundedSection/*": [
+                "src/components/RoundedSection/*"
+            ],
+            "@InfoBox/*": [
+                "src/components/InfoBox/*"
+            ],
+            "@ValueCard/*": [
+                "src/components/ValueCard/*"
+            ],
+            "@ValuesCard/*": [
+                "src/components/ValuesCard/*"
+            ],
+            "@TasksCard/*": [
+                "src/components/TasksCard/*"
+            ]
+        }
+    }
+}
